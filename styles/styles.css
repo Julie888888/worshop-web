@@ -1,0 +1,181 @@
+body {
+  background-color: #4a148c;
+  width: 100%;
+  text-align: justify;
+  /*margin: 50px 50px;*/
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+.logo_nasa {
+  width : 150px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu p {
+  font-family: Merienda;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.Liste_nav {
+  margin: 20px 20px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: Merienda;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+
+}
+li {
+  list-style: none;
+  padding: 10px 50px;
+}
+li:hover {
+  background-color: red;
+
+}
+.globale {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 4px solid blue;
+  border-bottom: 4px solid blue;
+
+}
+.decollage {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.image {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width:auto;
+    }
+  .texte {
+    display: flex;
+    width: 100%;
+    text-align: justify;
+    color: white;
+  }
+  .texte p {
+    font-family: Merienda;
+    margin-top: 20px;
+  }
+.texte p a {
+  text-decoration: none;
+  color: white;
+  text-align: justify;
+
+}
+.bloc2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.la nasa
+  img {
+    width: 100%;
+
+  }
+.lancement {
+  font-family: Merienda;
+
+}
+.texte_trait {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.decollage_imminent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.texte_trait p {
+  margin: auto;
+  padding-left: 10px;
+  font-family: Merienda;
+  font-size: 20px;
+  text-align: center;
+}
+.nombre {
+  font-size: 20px;
+  text-align: center;
+
+}
+.img2 {
+  padding: 40px;
+  margin-left: 100px;
+  height: 400px;
+}
+.float {
+  margin : auto;
+  padding: 20px 20px;
+}
+.block3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
+
+}
+.texte_trait img {
+  height: 200px ;
+  width: auto;
+}
+.texte_trait  {
+  align-self: flex-start;
+}
+.compteur {
+  width: 80px;
+  padding: 0px;
+  font-family: Merienda;
+  align-self: flex-start;
+  padding-bottom: 15px;
+}
+.compteur p {
+  border: 15pt solid purple;
+  font-size: 20pt;
+  margin: auto;
+  width: 80px;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.launch {
+  background-color: blue;
+  font-weight: bold;
+  border: 5px solid blue;
+  width: 120px;
+  text-align: center;
+  border-radius: 10px;
+    margin-bottom: 20px;
+  /* padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 20px;*/
+  align-self: flex-start;
+}
+.launch:hover {
+  background-color: red;
+  border: 5px solid red;
+}
+footer {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  font-family: Merienda;
+  font-size: 8pt;
+}
